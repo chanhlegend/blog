@@ -14,10 +14,14 @@
     "blog": "file:",
     "express": "^4.21.1",
     "express-handlebars": "^8.0.1",
+    "mongoose": "^8.8.1",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.7"
   },
   "devDependencies": {
-    "node-sass": "^9.0.0"
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "node-sass": "^9.0.0",
+    "prettier": "^3.3.3"
   }
 }
