@@ -8,8 +8,10 @@
   </head>
   <body>
     <div class="app">
-      {{> header}}
+      {{!-- có nghĩa là lấy từ folder partials --}}
+      {{> header}} 
       <div class="container">
+        {{!-- mặc định của thư viện handlebar --}}
         {{{body}}}
       </div>
       {{> footer}}
